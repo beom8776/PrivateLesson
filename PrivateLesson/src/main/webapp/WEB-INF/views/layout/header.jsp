@@ -7,33 +7,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <head>
-	
-    <meta charset="utf-8">
+  
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Start Bootstrap Theme</title>
+    <title>Lesson Me | 과외 중개 사이트</title>
 
     <!-- Bootstrap core CSS -->
     <link href="${root}/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="${root}/resources/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="${root}/resources/css/clean-blog.min.css" rel="stylesheet">
 
 	<!-- Bootstrap core JavaScript -->
     <script src="${root}/resources/vendor/jquery/jquery.min.js"></script>
     <script src="${root}/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="${root}/resources/js/clean-blog.min.js"></script>
-  </head>
 
 </head>
 <body>
@@ -41,24 +34,30 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+        <a class="navbar-brand" href="/">LESSON ME</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
+          메뉴
           <i class="fas fa-bars"></i>
         </button>
+        <div class="collapse navbar-collapse">
+        	<h3>Today : 000명</h3>
+        </div>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+         	 <li class="nav-item">
+              <a class="nav-link" href="login.do">로그인</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="index.html">선생님/학생 등록</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.html">Sample Post</a>
+              <a class="nav-link" href="about.html">검색</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="post.html">게시판</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">이용안내</a>
             </li>
           </ul>
         </div>
@@ -72,8 +71,8 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Clean Blog</h1>
-              <span class="subheading">A Blog Theme by Start Bootstrap</span>
+              <h1>과외 매칭 사이트</h1>
+              <span class="subheading">나에게 맞는 선생님 또는 학생을 연결시켜드립니다.</span>
             </div>
           </div>
         </div>
