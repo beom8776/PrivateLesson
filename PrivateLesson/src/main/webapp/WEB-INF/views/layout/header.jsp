@@ -21,7 +21,8 @@
     <!-- Custom fonts for this template -->
 
     <!-- Custom styles for this template -->
-
+    <link href="${root}/resources/css/lesson-main.css" rel="stylesheet" type="text/css">
+	
 	<!-- Bootstrap core JavaScript -->
     <script src="${root}/resources/vendor/jquery/jquery.min.js"></script>
     <script src="${root}/resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
