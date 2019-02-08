@@ -1,12 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 
-<!-- 메인화면 -->
-<div class="home-container">
-<script>
-	console.log(${totalCount});
-	console.log(${todayCount});
-</script>
+<!-- 관리자 통계 메인화면 -->
+<div class="admin-statis-home-container">
+
 
 	<!-- 광고 컨테이너 -->
 	<div class="home-adv">
