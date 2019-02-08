@@ -44,7 +44,7 @@
 			</ul>
 		</div>
 		<div class="header_line header2">
-			<img src="${root}/img/logo.jpg" alt="Logo" style="width: 50px">
+			<img src="${root}/resources/img/logo.jpg" alt="Logo" style="width: 50px">
 			<!-- <span>로고</span> -->
 			<ul>
 				<li><a href="/">공지사항</a></li>
@@ -53,7 +53,7 @@
 			</ul>
 		</div>
 		<div class="header_line header3">
-			<span>Today : 000명</span>
+			<span>Today : ${todayCount}명</span>
 			<ul>
 				<li><a href="/">선생님 / 학생 등록하기</a></li>
 				<li><a href="/">과외학생검색</a></li>
